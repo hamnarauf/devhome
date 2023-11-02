@@ -87,7 +87,7 @@
                                 <TextBox x:Name="SuggestFeatureScenario" x:Uid="Settings_Feedback_SuggestFeature_Scenario" TextWrapping="Wrap" Margin="{StaticResource SmallTopMargin}" MinHeight="{StaticResource FeedbackTextBoxHeight}" AcceptsReturn="True"/>
                                 <TextBox x:Name="SuggestFeatureSupportingInfo" x:Uid="Settings_Feedback_SuggestFeature_SupportingInfo" TextWrapping="Wrap" Margin="{StaticResource SmallTopMargin}" MinHeight="{StaticResource FeedbackTextBoxHeight}" AcceptsReturn="True"/>
                             </StackPanel>
-                        </ScrollViewer>
+                        </ScrollViewer> 
                     </Grid>
                 </ContentDialog>
                 <ContentDialog x:Name="DocumentationIssueDialog" x:Uid="Settings_Feedback_DocumentationIssue_Dialog" HorizontalAlignment="Center" DefaultButton="Primary">
